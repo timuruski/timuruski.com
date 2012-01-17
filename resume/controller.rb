@@ -1,1 +1,1 @@
-layout 'index.html.md' => '../layouts/default.erb'
+layout 'index.html.md' => '../layouts/default.slim'

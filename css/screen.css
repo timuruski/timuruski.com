@@ -1,0 +1,6 @@
+body { background: hsl(280, 14%, 96%); font-family: "jubilat-1","jubilat-2",sans-serif; margin-top: 65px; }
+p { font-weight: 200; font-size: 18px; color: hsl(271, 37%, 13%); }
+a { color: hsl(256, 43%, 51%); }
+a:hover { color: hsl(221, 91%, 56%); }
+span.name { color: hsl(256, 43%, 51%); }
+h1,h2 { color: hsl(256, 37%, 19%); font-family: "jubilat-1","jubilat-2",sans-serif; font-weight: 400; }
