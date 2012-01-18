@@ -1,6 +1,17 @@
-body { background: hsl(280, 14%, 96%); font-family: "jubilat-1","jubilat-2",sans-serif; margin-top: 65px; }
+body { background: hsl(280, 14%, 96%); font-family: "jubilat-1","jubilat-2",sans-serif; margin-top: 65px; margin-bottom: 30px; }
 p { font-weight: 200; font-size: 18px; color: hsl(271, 37%, 13%); }
 a { color: hsl(256, 43%, 51%); }
 a:hover { color: hsl(221, 91%, 56%); }
 span.name { color: hsl(256, 43%, 51%); }
 h1,h2 { color: hsl(256, 37%, 19%); font-family: "jubilat-1","jubilat-2",sans-serif; font-weight: 400; }
+.duration { font-style: italic; }
+.duration:before { content: "("; }
+.duration:after { content: ")"; }
+.footer { font-size: 22px; text-align: center; }
+
+body.tuesday { background: hsl(280, 14%, 96%); }
+body.tuesday p { color: hsl(271, 37%, 13%); }
+body.tuesday a { color: hsl(256, 43%, 51%); }
+body.tuesday a:hover { color: hsl(256, 43%, 51%); }
+body.tuesday span.name { color: hsl(256, 43%, 51%); }
+body.tuesday h1, body.tuesday h2 { color: hsl(256, 37%, 19%); }
