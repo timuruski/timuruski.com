@@ -1,7 +1,3 @@
-# layout 'index.html.md' => 'layout.erb'
-layout 'index.html.md' => 'layouts/default.slim'
-# layout 'index.html.md' => 'layouts/default.erb'
-
-ignore %r{Gemfile}
-ignore %r{/layouts/.*}
-ignore %r{/layout.erb}
+ignore 'Gemfile', 'Gemfile.lock' 'Rakefile', %r{tmp/}, %r{layouts/}
+layout %r{\.md$} => 'layouts/default.slim'
+# layout 'layouts/default.slim'
