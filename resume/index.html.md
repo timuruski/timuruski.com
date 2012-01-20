@@ -50,9 +50,9 @@ better understand the domains they wrap.
 I do all of my work on a **Mac** because it provides a powerful blend of
 graphical interfaces and linux shell. All of my work is stored in **Git**, much
 of it on [GitHub](https://github.com/timuruski). More than almost any other
-tool, it has transformed the way I think about and do my work. While my primary
-development environment has been **TextMate** based, over the last few years
-I've been moving towards a minimalist development environment based on unix
+tool, it has transformed the way I think about and do my work. Previously my
+development tools have been **TextMate** and a Terminal window, but over the last
+few years I've been moving towards a minimalist environment centered on unix
 tools, shell programming and the **Vim** text editor.
 
 ### Autodidactyly
