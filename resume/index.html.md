@@ -8,9 +8,9 @@ Recruiters, please avert your eyes.
 ### Fanhattan <span class="duration">2010 &mdash; Present</span>
 
 At [Fanhattan](http://fanhattan.com) I have been able to focus on software
-development using **Ruby**, **MongoDB** and a bunch of other technologies. I
-had the privilege of working with [Pivotal Labs](http://pivotallabs.com) for
-six months, learning about test-driven development and agile programming.
+development using **Ruby**, **MongoDB** and many other technologies. I had the
+privilege of working with [Pivotal Labs](http://pivotallabs.com) for six
+months, learning about test-driven development and agile programming.
 
 ### Corbis <span class="duration">2009 -- 2010</span>
 
@@ -23,10 +23,10 @@ application](http://www.veer.com/ideas/activitybook/) using WebKit.
 ### Critical Mass <span class="duration">2006 -- 2009</span>
 
 I took a job as a Flash developer at [Critical Mass](http://criticalmass.com)
-so I could focus on programming. For the next three years, I designed
-and built front-end website frameworks in **ActionScript** for Dell, Rolex and
-Budweiser. Teamwork was an important part of my job, and I learned a lot
-about leadership and mentoring as senior developer.
+so I could focus on programming. For the next three years, I designed and built
+front-end website frameworks in **ActionScript** for Dell, Rolex and Budweiser.
+Teamwork was an important part of my job, and I learned a lot about leadership
+and mentoring as senior developer.
 
 ### Ground Level Design <span class="duration">2003 -- 2006</span>
 
@@ -50,9 +50,10 @@ better understand the domains they wrap.
 I do all of my work on a **Mac** because it provides a powerful blend of
 graphical interfaces and linux shell. All of my work is stored in **Git**, much
 of it on [GitHub](https://github.com/timuruski). More than almost any other
-tool, it has improved the way I think about and do my work. Over the last few
-years I've been moving towards a minimalist development environment based on
-unix tools, shell programming and the Vim text editor.
+tool, it has transformed the way I think about and do my work. While my primary
+development environment has been **TextMate** based, over the last few years
+I've been moving towards a minimalist development environment based on unix
+tools, shell programming and the **Vim** text editor.
 
 ### Autodidactyly
 
