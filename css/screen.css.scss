@@ -6,7 +6,7 @@ h1,h2 { font-family: "jubilat-1","jubilat-2",sans-serif; font-weight: 400; }
 .duration:after { content: ")"; }
 .footer { font-size: 22px; text-align: center; }
 
-body.tuesday {
+body.default {
   background: hsl(280, 14%, 96%);
   p { color: hsl(271, 37%, 13%); }
   a { color: hsl(256, 43%, 51%); }
@@ -15,11 +15,20 @@ body.tuesday {
   h1, h2 { color: hsl(256, 37%, 19%); }
 }
 
-body.wednesday {
-  background: hsl(280, 14%, 96%);
-  p { color: hsl(271, 37%, 35%); }
-  a { color: hsl(256, 43%, 51%); }
-  a:hover { color: hsl(221, 91%, 56%); }
-  span.name { color: hsl(256, 43%, 51%); }
-  h1, h2 { color: hsl(256, 37%, 19%); }
+@mixin color_values($hue) {
+  background: hsl($hue + 10, 14%, 96%);
+  p { color: hsl($hue, 37%, 13%); }
+  a { color: hsl($hue - 20, 43%, 51%); }
+  a:hover { color: hsl($hue - 40, 91%, 56%); }
+  span.name { color: hsl($hue, 43%, 51%); }
+  h1, h2 { color: hsl($hue - 20, 37%, 19%); }
 }
+
+body.monday { @include color_values(271) }
+body.tuesday { @include color_values(45) }
+body.wednesday { @include color_values(120) }
+body.thursday { @include color_values(24) }
+body.friday { @include color_values(300) }
+body.saturday { @include color_values(180) }
+body.sunday { @include color_values(90) }
+
