@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Hello, I'm <span class="name">Tim Uruski</span>
 
 ## I create computer software.

@@ -1,0 +1,12 @@
+isafe:        false
+auto:        false
+server:      false
+server_port: 9292
+baseurl:    /
+url: http://localhost:9292
+source:      .
+destination: ./public
+exclude:
+ - Rakefile
+ - tmp
+# plugins:     ./_plugins

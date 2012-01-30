@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Hello, I'm <span class="name">Tim Uruski</span>
 
 This is a resume outlining the past 9 years of my experience as a programmer.

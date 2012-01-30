@@ -1,3 +1,6 @@
+---
+published: true
+---
 body { font-family: "jubilat-1","jubilat-2",sans-serif; margin-top: 65px; margin-bottom: 30px; }
 p { font-weight: 200; font-size: 18px; }
 h1,h2 { font-family: "jubilat-1","jubilat-2",sans-serif; font-weight: 400; }
@@ -22,6 +25,12 @@ body.default {
   a:hover { color: hsl($hue - 40, 91%, 56%); }
   span.name { color: hsl($hue, 43%, 51%); }
   h1, h2 { color: hsl($hue - 20, 37%, 19%); }
+}
+
+@mixin color_values2($base: hsl(256, 0%, 19%)) {
+  color: $base;
+  background: $base;
+  h1,h2,h3,h4,h5,h6 { color: saturate($base); }
 }
 
 body.monday { @include color_values(271) }
