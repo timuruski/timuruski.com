@@ -1,4 +1,4 @@
-isafe:        false
+safe:        false
 auto:        false
 server:      false
 server_port: 9292
@@ -9,4 +9,5 @@ destination: ./public
 exclude:
  - Rakefile
  - tmp
+ - public
 # plugins:     ./_plugins
