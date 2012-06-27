@@ -8,7 +8,12 @@ Recruiters, please avert your eyes.
 
 ## Professional Experience
 
-### Fanhattan <span class="duration">2010 &mdash; Present</span>
+### BlackSquare <span class="duration">2012 -- Present</span>
+
+Now I work at [BlackSquare](http://blacksquare.ca), developing
+revolutionary software for the wine and spirits industry.
+
+### Fanhattan <span class="duration">2010 -- 2012</span>
 
 At [Fanhattan](http://fanhattan.com) I have been able to focus on software
 development using **Ruby**, **MongoDB** and many other technologies. I had the
